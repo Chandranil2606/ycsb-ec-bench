@@ -1,0 +1,17 @@
+YCSB Client 0.1
+Command line: -db com.yahoo.ycsb.db.CassandraClient7 -P workloads/workloadb -load -threads 70 -p measurementtype=timeseries -p recordcount=100000 -p hosts=10.71.84.101,10.71.84.102,10.71.84.103,10.71.84.104,10.71.84.105,10.71.84.106,10.71.84.107,10.71.84.108,10.71.84.109,10.71.84.110,10.71.84.111,10.71.84.112,10.71.84.113,10.71.84.114 -p operationcount=1000000 -p readproportion=0.5 -p updateproportion=0.5 -p scanproportion=0 -p insertproportion=0.0 -s
+ 0 sec: 0 operations; 
+ 6 sec: 99960 operations; 16277.48 current ops/sec;  
+[OVERALL], RunTime(ms), 6142.0
+[OVERALL], Throughput(ops/sec), 16281.341582546402
+[INSERT], Operations, 99960
+[INSERT], AverageLatency(ms), 3.6990996398559424
+[INSERT], MinLatency(ms), 0
+[INSERT], MaxLatency(ms), 580
+[INSERT], Return=0, 99951
+[INSERT], 0, 4.8354373712955505
+[INSERT], 1000, 4.201167244209374
+[INSERT], 2000, 3.618355619405459
+[INSERT], 3000, 5.356032171581769
+[INSERT], 4000, 3.6128947506699594
+[INSERT], 5000, 1.917366188284141
